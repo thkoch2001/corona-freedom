@@ -1,0 +1,12 @@
+NUTS 3 is a system for region names:
+https://ec.europa.eu/eurostat/web/nuts/background
+
+** See yearly death numbers per country
+
+#+BEGIN_SRC shell
+  cd .
+  python3
+  >>> from test_countries import *
+  >>> d['2020'].loc['DE'].head(10) # Check which weeks have data
+  >>> get_years_for_country('DE')
+#+END_SRC

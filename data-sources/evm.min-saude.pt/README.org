@@ -1,0 +1,4 @@
+The data can only be downloaded manually from the "Exportar" button at the
+bottom of the screen. There must be a better place to get it though.
+
+https://evm.min-saude.pt/#shiny-tab-a_total
